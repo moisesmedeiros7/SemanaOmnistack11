@@ -1,3 +1,44 @@
-h1 {
-    color: #7159c1;
+.logon-container{
+    width: 100%; /* largura 100% */
+    max-width: 1120px; /* largura máxima 1120px */
+    height: 100vh; /* altura */
+    margin: 0 auto; /* centraliza conteúdo */
+
+    display: flex;  /* Vai alinhar os elementos */
+    align-items: center; /* alinhamento verticalmente */
+    justify-content: space-between; /* alinhamento  horizontalmente*/
+}
+
+.logon-container section.form{  /* section chamada FORM */
+    width: 100%; /* largura 100% */
+    max-width: 350px; /* largura máxima 350px */
+    margin-right: 30px; /*Margem a direita de 30px */
+}
+
+.logon-container section.form form{  /* formulário */
+    margin-top: 100px;
+}
+
+.logon-container section.form h1{  /* h1 */
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.logon-container section.form a{  /* h1 */
+    display: flex; /* alinhar ícone e texto */
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.logon-container section.form a svg{
+    margin-right: 8px;
+}
+
+.logon-container section.form a:hover{  
+    opacity: 0.8;
 }

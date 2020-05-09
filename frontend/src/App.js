@@ -1,14 +1,14 @@
 import React from 'react';
 import './global.css';
-import Logon from './pages/Logon';
+import Routes from './routes';
 
 function App() {
 
   return (
-    <Logon />    
+    <Routes />    
   );
 }
 
 export default App;
 
-//parei em 27 minutos
+//parei em 1h04 minutos
