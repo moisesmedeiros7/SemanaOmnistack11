@@ -11,4 +11,4 @@ function App() {
 
 export default App;
 
-//parei em 1h04 minutos
+//parei em 1h14 minutos
